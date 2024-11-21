@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main">
+    <div class="navbar">
+        <h2 class="logo">PagePursuit.</h2>
+        <div class="menu">
+            
+        <ul>
+            <img src="images/book.png" style="width:150px; height: auto; margin-bottom: 80px; left: 100px; position: absolute;" alt="Book logo" aria-hidden="true">
+            <li><div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+            </div></li>
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a><button class="Form"><i class="fa-regular fa-compass"></i></button></a></li>
+            <li>
+                <button class="menu-btn" onclick="openSidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div id="menuBar" class="slide-menu">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">×</a>
+                    <a href="page.html">HOME</a>
+                    <a href="account.html">ACCOUNT</a>
+                    <a href="page.html">BOOKSHELVES</a>
+                    <a href="about1.html">ABOUT US</a>
+                    <a href="login.html">LOG OUT</a>
+                </div>
+            </li>
+
+            
+            </div>
+            <div class="blur-bg-overlay"></div>
+
+
+            <div class="form-popup">
+                
+                <span class="close-btns">close</span>
+                
+                <section class="footers" id="footers">
+                    <h1>Pick Genre</h1>
+                    <div class="box-containers">
+                        <div class="boxs">
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> ART </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> BUSINESS </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> CHICK LIST </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> CHILDREN </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> CHRISTIAN </a></label> 
+                            </div>
+                        </div>
+                
+                        <div class="boxs">
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> LGBTQIA+ </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> GRAPHIC NOVELS </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> HISTORICAL FICTION </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> HISTORY </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> HORROR </a></label> 
+                            </div>
+                        </div>
+                
+                        <div class="boxs">
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> HUMOR </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> MANGA </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> POETRY </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> PSYCHOLOGY </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> RELIGION </a></label> 
+                            </div>
+                        </div>
+                
+                        <div class="boxs">
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> ROMANCE </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> SCIENCE </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> SCIENCE FICTION </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> CHILDREN </a></label> 
+                            </div>
+                            <div class="policy-texts">
+                                <input type="checkbox" id="policy"> 
+                                <label for="policy"> <a href="#"> CHRISTIAN </a></label> 
+                            </div>
+                        </div>
+                    </div>
+                
+                    <button type="submit" class="btns">Search it</button>
+                </section>
+            </div>
+
+            
+        </ul>
+    </div>
+
+    <h2 class="fantasy">FANTASY</h2>
+    <section class="BOOKSHELVES-1">
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>              
+            
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+    </section>
+
+    <h2 class="children">CHILDREN'S</h2>
+    <section class="BOOKSHELVES-2">
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+    </section>
+
+    <h2 class="manga">MANGA</h2>
+    <section class="BOOKSHELVES-3">
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+        <div class="item">
+            <a href="page2.html">
+                <img src="images/harry.png" alt="" class="clickable-image">
+              </a>  
+        </div>
+    </section>
+
+    </div>
+    
+</div>
+
+<div class="comments">
+    <h2 class="dis">Discussion</h2>
+    <div class="comment-session" id="comment-session">
+    <div class="post-comment">
+        <div class="comment-list" id="comment-1">
+            <div class="flex">
+                <div class="user">
+                    <div class="user-image"><img src="images/neo.png" alt=""></div>
+                    <div class="user-meta">
+                        <div class="name">User 1</div>
+                        <div class="day">10 days ago</div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="click icon"><i class="fa-regular fa-circle-up"></i></div>
+                    <div class="click icon"><i class="fa-regular fa-circle-down"></i></div>
+                    <!-- Reply Button for Comment 1 -->
+                    <div class="re-comment" onclick="openReplyPopup('comment-1')">Comments</div>
+                </div>
+            </div>
+            <div class="comment">
+                Lorem ipsum dolor sit amet. In obcaecati tempora ea iure voluptatem vel praesentium sunt est quas voluptatem ut porro deserunt.
+            </div>
+        
+            <!-- Replies Section for Comment 1 -->
+            <div class="replies" id="comment-1-replies"></div>
+        
+            <!-- Reply Popup for Comment 1 -->
+            <div class="comments-popup" id="comment-1-popup">
+                <span class="close-comments-btn" onclick="closeReplyPopup('comment-1')">×</span>
+                <div class="comments-content">
+                    <h2>Reply to Comment</h2>
+                    <form id="comment-1-form" onsubmit="submitReply(event, 'comment-1')">
+                        <textarea placeholder="Write your reply..." required></textarea>
+                        <button type="submit">Reply</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Overlay for Popup -->
+            <div class="overlay" id="overlay"></div>
+        </div>
+        
+        <!-- Another Comment -->
+        <div class="comment-list" id="comment-2">
+            <div class="flex">
+                <div class="user">
+                    <div class="user-image"><img src="images/neo.png" alt=""></div>
+                    <div class="user-meta">
+                        <div class="name">User 2</div>
+                        <div class="day">5 days ago</div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="click icon"><i class="fa-regular fa-circle-up"></i></div>
+                    <div class="click icon"><i class="fa-regular fa-circle-down"></i></div>
+                    <!-- Reply Button for Comment 2 -->
+                    <div class="re-comment" onclick="openReplyPopup('comment-2')">Comments</div>
+                </div>
+            </div>
+            <div class="comment">
+                Another comment text. Curabitur vehicula nisi eu feugiat.
+            </div>
+        
+            <!-- Replies Section for Comment 2 -->
+            <div class="replies" id="comment-2-replies"></div>
+        
+            <!-- Reply Popup for Comment 2 -->
+            <div class="comments-popup" id="comment-2-popup">
+                <span class="close-comments-btn" onclick="closeReplyPopup('comment-2')">×</span>
+                <div class="comments-content">
+                    <h2>Reply to Comment</h2>
+                    <form id="comment-2-form" onsubmit="submitReply(event, 'comment-2')">
+                        <textarea placeholder="Write your reply..." required></textarea>
+                        <button type="submit">Reply</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Overlay for Popup -->
+            <div class="overlay" id="overlay"></div>
+        </div>
+
+        <div class="comment-list" id="comment-3">
+            <div class="flex">
+                <div class="user">
+                    <div class="user-image"><img src="images/neo.png" alt=""></div>
+                    <div class="user-meta">
+                        <div class="name">User 2</div>
+                        <div class="day">5 days ago</div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="click icon"><i class="fa-regular fa-circle-up"></i></div>
+                    <div class="click icon"><i class="fa-regular fa-circle-down"></i></div>
+                    <!-- Reply Button for Comment 3 -->
+                    <div class="re-comment" onclick="openReplyPopup('comment-3')">Comments</div>
+                </div>
+            </div>
+            <div class="comment">
+                Another comment text. Curabitur vehicula nisi eu feugiat.
+            </div>
+        
+            <!-- Replies Section for Comment 3 -->
+            <div class="replies" style="background: #eae0e0; border-radius: 10px; top: 10px;" id="comment-3-replies"></div>
+        
+            <!-- Reply Popup for Comment 3 -->
+            <div class="comments-popup"  id="comment-3-popup">
+                <span class="close-comments-btn" onclick="closeReplyPopup('comment-3')">×</span>
+                <div class="comments-content">
+                    <h2>Reply to Comment</h2>
+                    <form id="comment-3-form" onsubmit="submitReply(event, 'comment-3')">
+                        <textarea placeholder="Write your reply..." required></textarea>
+                        <button type="submit">Reply</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Overlay for Popup -->
+            <div class="overlay" id="overlay"></div>
+        </div>
+        
+                        
+    
+    </div>
+    </div>
+    <h2 class="post">Post</h2>
+    <form class="comment-box" id="new-comment-form" onsubmit="submitNewComment(event)">
+            <div class="user">
+                <div class="image"><img src="images/neo.png" alt=""></div>
+                <div class="name">User</div>
+            </div>
+            <textarea class="comment" name="comment" placeholder="ADD TEXT HERE" required></textarea>
+            <button type="submit" class="comment-submit">Post</button>
+        </form>
+</div>
+<!-- Footer form -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#"> Home </a>
+            <a href="#"> About Us </a>
+            <a href="#"> Contact </a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"> My Account </a>
+            <a href="#"> Books List </a>
+            <a href="#"> My Favorite </a>
+        </div>
+
+        <div class="box">
+            <h3>Location</h3>
+            <a href="#"> Philippines </a>
+            <a href="#"> United State of America </a>
+            <a href="#"> Japanese </a>
+            <a href="#"> France </a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Information</h3>
+            <a href="#"> 09-012-345-678 </a>
+            <a href="#"> PagePursuitOF@gmail.com </a>
+            <a href="#"> Philippines, Rizal - Montalban </a>
+        </div>
+    </div>
+
+    <div class="credit"> Created by <span> Group 6 - BSIT 3D </span> | All Right Reserved </div>
+</section>
+
+<script src="script-0.js"></script>  
+<script src="form.js"></script>
+<script src="script-1.js"></script>
+</body>
+</html>

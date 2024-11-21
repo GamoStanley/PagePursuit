@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagePursuit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    
+
+</head>
+<body>
+    
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">PagePursuit<span>.</span></a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="icons">
+            <button class="login-btn">LOGIN</button>
+        </div>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+
+
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        
+        <!-- Login Form -->
+        <div class="form-box login">
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" id="forgot-password-link">Forgot Password?</a>
+                    <button type="submit">LOGIN</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an Account? <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form-box signup">
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create Password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">I agree to the <a href="#">Terms & Conditions</a></label>
+                    </div>
+                    <button type="submit">SIGNUP</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an Account? <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forgot Password Form -->
+        <div class="form-box forgot">
+            <div class="form-content">
+                <h2>FORGOT PASSWORD</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send Verification Code</button>
+                    <div class="input-field">
+                        <input type="number" required>
+                        <label>Enter the Code</label>
+                    </div>
+                    <button type="submit">Verify the Code</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Home form -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>PagePursuit</h3>
+        <span>All the books will be your's</span>
+        <p>Books of all kinds should be freely accessible to everyone, promoting learning, creativity, and critical thinking. By removing barriers like cost and location, people globally can explore diverse topics and gain knowledge, fostering innovation and cross-cultural understanding.</p>
+        <a href="#footer" class="btn"> Social Information </a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"><span> About </span> Us </h1>
+
+    <div class="row">
+        <div class="video-container">
+            <video src="images/Great Ideas.mp4" loop autoplay muted></video>
+            <h3>Best Books Reader's</h3>
+        </div>
+
+        <div class="content">
+            <h3>Why choose Us?</h3>
+            <p>Our website offers high-quality, curated content designed to inform, engage, and inspire readers. With a user-friendly design and regularly updated resources, we make it easy to find exactly what you're looking for, whether for the latest trends or expert advice. We are dedicated to providing valuable insights, ensuring a great reading experience for all.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Us form -->
+<section class="icons-container">
+    <div class="icons">
+        <img src="#" alt="">
+        <div class="info">
+            <h3>Free Reading's</h3>
+            <span>On all Free</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="#" alt="">
+        <div class="info">
+            <h3>Categories Book's</h3>
+            <span>It all Set</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="#" alt="">
+        <div class="info">
+            <h3>Conversation Other's</h3>
+            <span>With just like you</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="#" alt="">
+        <div class="info">
+            <h3>User-Friendly</h3>
+            <span>To make you Easy</span>
+        </div>
+    </div>
+</section>
+
+<!-- Contact form -->
+<section class="contact" id="contact">
+    <h1 class="heading"> Contact <span> US </span></h1>
+
+    <div class="row">
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"> </textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="../PagePursuit/book.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Footer form -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#"> Home </a>
+            <a href="#"> About Us </a>
+            <a href="#"> Contact </a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"> My Account </a>
+            <a href="#"> Books List </a>
+            <a href="#"> My Favorite </a>
+        </div>
+
+        <div class="box">
+            <h3>Location</h3>
+            <a href="#"> Philippines </a>
+            <a href="#"> United State of America </a>
+            <a href="#"> Japanese </a>
+            <a href="#"> France </a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Information</h3>
+            <a href="#"> 09-012-345-678 </a>
+            <a href="#"> PagePursuitOF@gmail.com </a>
+            <a href="#"> Philippines, Rizal - Montalban </a>
+            
+        </div>
+    </div>
+
+    <div class="credit"> Created by <span> Group 6 - BSIT 3D </span> | All Right Reserved </div>
+</section>
+
+
+</body>
+</html>
