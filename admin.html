@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Admin Dashboard</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="bookM.html">Books Management</a></li>
+                <li><a href="userM.html">User Management</a></li>
+                <li><a href="admin.html">Dashboard</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="overview">
+                <div class="stat-card">
+                    <h3>Total Books</h3>
+                    <p>120</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Users</h3>
+                    <p>50</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Reviews</h3>
+                    <p>300</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Pending Reviews</h3>
+                    <p>5</p>
+                </div>
+            </div>
+            
+            <section class="recent-activity">
+                <h2>Recent Activity</h2>
+                <div class="activity-card">
+                    <h3>Recent Book Added</h3>
+                    <p><strong>Book Title:</strong> The Great Adventure</p>
+                    <p><strong>Category:</strong> Fiction</p>
+                    <p><strong>Added By:</strong> Admin</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Recent User Review</h3>
+                    <p><strong>Username:</strong> john_doe</p>
+                    <p><strong>Book Reviewed:</strong> The Great Adventure</p>
+                    <p><strong>Review:</strong> "Amazing story with great plot twists!"</p>
+                </div>
+            </section>
+
+            <section class="quick-actions">
+                <h2>Quick Actions</h2>
+                <button class="add-btn">Add New Book</button>
+                <button class="manage-btn">Manage Users</button>
+                <button class="review-btn">Moderate Reviews</button>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
